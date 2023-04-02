@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #013914;
+    color: white;
+    .container{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px;
+        .logo{
+            .text{
+               font-weight: 700;
+               font-size: 1.5em;
+               font-family: 'Montserrat', sans-serif; 
+            
+            }
+            .dot{
+                font-weight: 700;
+                font-size: 1.5em;
+                color: #1dbf73;
+            }
+        }
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            span{
+                font-size: 0.8em;
+                font-weight: 500;
+                
+            }
+            button{
+                border: 1px solid white;
+                color: white;
+                padding: 8px 15px;
+                background-color: transparent;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 0.8em;
+                font-weight: 500;
+                &:hover{
+                    background-color: #1dbf73;
+                }
+            }
+        }
+    }
+}
