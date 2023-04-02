@@ -1,9 +1,11 @@
+import React from "react"
+import Add from "./pages/add/Add"
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Add/>
     </div>
   )
 }
